@@ -12,15 +12,16 @@ https://www.ceneo.pl/84514582#tab=reviews_scroll
 ## Analysis of ten structure of the webpage
 |Component|Selector|Variable|
 |----------|-------|-------|
-|opinion ID | | |
-|author | | |
-|recommendation | | |
-|number of stars | | |
-|content of opinion | | |
-|list od adventages | | |
-|list od disadventages | | |
-|fow how many helpful | | |
-|fow how many unhelpful | | |
-|publishing date | | |
-|purchase date | | |
+|opinion|div.js_product-review|opinion|
+|opinion ID |data-entry-id|opinion_id|
+|author |user-post_author-name|author|
+|recommendation |span.user-post__author-recomendation > em|recommendation|
+|number of stars |span.user-post__score-count|stars|
+|content of opinion |div.user-post__text|content|
+|list od adventages |div.review-feature__item--positive|pros|
+|list od disadventages |div.review-feature__item--negative|cons|
+|fow how many helpful |button.vote-yes[data-total-vote]|vote_yes|
+|fow how many unhelpful|button.vote-no[data-total-vote]| |
+|publishing date |span.user-post__published > time:nth-child(1)[datatime]| |
+|purchase date |span.user-post__published > time:nth-child(2)[datatime]| |
 
