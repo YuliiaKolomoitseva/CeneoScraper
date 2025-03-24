@@ -11,7 +11,7 @@ https://www.ceneo.pl/84514582#tab=reviews_scroll
 
 ## Analysis of ten structure of the webpage
 |Component|Selector|Variable|
-|.........|........|........|
+|----------|-------|-------|
 |opinion ID | | |
 |author | | |
 |recommendation | | |
